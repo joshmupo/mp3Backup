@@ -2,12 +2,12 @@ body {
   margin: 0;
   padding: 0;
   color: #fff;
-  font-family: 'Open Sans', Helvetica, sans-serif;
+  font-family: "Open Sans", Helvetica, sans-serif;
   box-sizing: border-box;
 }
 
-.banner-value{
-  font-size: 20px
+.banner-value {
+  font-size: 20px;
 }
 
 .grid-container {
@@ -15,9 +15,9 @@ body {
   grid-template-columns: 1fr;
   grid-template-rows: 50px 1fr 50px;
   grid-template-areas:
-    'header'
-    'main';
-    height: 100vh;
+    "header"
+    "main";
+  height: 100vh;
 }
 
 .header {
@@ -28,7 +28,6 @@ body {
   padding: 0 16px;
   background-color: #1ea6ff;
 }
-
 
 .main {
   grid-area: main;
@@ -53,19 +52,17 @@ body {
   margin: 20px;
 }
 
-.title{
+.title {
   padding-bottom: 10px;
   font-size: 20px;
 }
 
-.ob-value{
+.ob-value {
   font-size: 18px;
-
 }
 
-.annotations{
+.annotations {
   padding-top: 10px;
-
 }
 
 .small-card {
@@ -101,7 +98,6 @@ body {
   padding: 24px;
   padding-bottom: 24px;
   box-sizing: border-box;
-
 }
 
 .annotation-box {
@@ -113,10 +109,10 @@ body {
   background: #f1f1f1;
 }
 
-.annotation-button{
+.recommended-button {
   float: left;
-  width: 20%;
-  padding: 10px;
+  width: 100%;
+  padding: 0px;
   background: #1ea6ff;
   color: white;
   font-size: 15px;
